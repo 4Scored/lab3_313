@@ -36,7 +36,8 @@ int main()
                 return -1;
         }
 
-        while(t_yield() >= 1)
+        while(t_yield() >= 1) {
+        }
                 ; // Wait for the workers to finish their tasks
         return 0;
 }
